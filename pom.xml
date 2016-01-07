@@ -56,6 +56,8 @@
     <!-- Make sure to keep JAXB version up to date in parent/pom.xml in the bottom of the file -->
     <jaxb-version>2.2.11</jaxb-version>
     <errorprone-version>2.5</errorprone-version>
+    <skipTests>true</skipTests>
+    <maven.test.skip>true</maven.test.skip>
   </properties>
 
   <mailingLists>
@@ -134,14 +136,14 @@
 
   <modules>
     <module>parent</module>
-    <module>etc</module>
+    <!-- <module>etc</module> -->
     <module>buildingtools</module>
     <module>camel-core</module>
     <module>components</module>
-    <module>tooling</module>
-    <module>platforms</module>
-    <module>tests</module>
-    <module>examples</module>
+    <!--<module>tooling</module> -->
+    <!-- <module>platforms</module> -->
+     <!-- <module>tests</module> -->
+    <!-- <module>examples</module> -->
   </modules>
 
   <scm>
@@ -308,7 +310,7 @@
         </property>
       </activation>
       <modules>
-        <module>apache-camel</module>
+       <!--  <module>apache-camel</module> -->
       </modules>
     </profile>
     <profile>
