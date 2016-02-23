@@ -244,6 +244,13 @@ public class RestSwaggerReader {
                         }
                     }
 
+                    // set collection format on query parameter
+                    if (parameter instanceof QueryParameter) {
+                        if (param.getAllowMultiple()) {
+                            ((QueryParameter) parameter).setCollectionFormat("multi");
+                        }
+                    }
+
                     op.addParameter(parameter);
                 }
             }
