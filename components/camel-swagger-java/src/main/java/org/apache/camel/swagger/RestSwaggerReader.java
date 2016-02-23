@@ -248,6 +248,7 @@ public class RestSwaggerReader {
                     if (parameter instanceof QueryParameter) {
                         if (param.getAllowMultiple()) {
                             ((QueryParameter) parameter).setCollectionFormat("multi");
+                            ((QueryParameter) parameter).setType("array");
                         }
                     }
 
