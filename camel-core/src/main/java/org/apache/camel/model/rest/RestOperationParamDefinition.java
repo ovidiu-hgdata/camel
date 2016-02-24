@@ -163,6 +163,7 @@ public class RestOperationParamDefinition {
 
     /**
      * Sets the Swagger Parameter array type.
+     * Required if data type is "array". Describes the type of items in the array.
      */
     public void setArrayType(String arrayType) {
         this.arrayType = arrayType;
