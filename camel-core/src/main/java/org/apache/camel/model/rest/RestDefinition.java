@@ -497,6 +497,12 @@ public class RestDefinition extends OptionalIdentifiedDefinition<RestDefinition>
         return this;
     }
 
+    public RestDefinition ignoreDocs() {
+        VerbDefinition verb = getVerbs().get(getVerbs().size() - 1);
+        verb.setIgnoreDocs(true);
+        return this;
+    }
+
     public RouteDefinition route() {
         // add to last verb
         if (getVerbs().isEmpty()) {

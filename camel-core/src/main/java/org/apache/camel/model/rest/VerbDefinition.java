@@ -98,6 +98,8 @@ public class VerbDefinition extends OptionalIdentifiedDefinition<VerbDefinition>
     private RestDefinition rest;
     @XmlAttribute
     private String routeId;
+    @XmlAttribute
+    private Boolean ignoreDocs;
 
     @Override
     public String getLabel() {
@@ -367,6 +369,14 @@ public class VerbDefinition extends OptionalIdentifiedDefinition<VerbDefinition>
 
     public RestDefinition verb(String verb, String uri) {
         return rest.verb(verb, uri);
+    }
+
+    public Boolean getIgnoreDocs() {
+        return ignoreDocs;
+    }
+
+    public void setIgnoreDocs(Boolean ignoreDocs) {
+        this.ignoreDocs = ignoreDocs;
     }
 
     public String asVerb() {
