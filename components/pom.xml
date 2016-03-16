@@ -76,15 +76,9 @@
     <module>camel-barcode</module>
     <module>camel-bindy</module>
     <module>camel-boon</module>
-<<<<<<< HEAD
     <module>camel-box</module>
     <module>camel-braintree</module>
-    <module>camel-cache</module>
-=======
-    <module>camel-box</module> -->
-    
-      <!-- <module>camel-cache</module>
->>>>>>> 1cec177... remove even more dependencies
+      <module>camel-cache</module>
     <module>camel-cassandraql</module>
     <module>camel-castor</module>
     <module>camel-cdi</module>
@@ -135,20 +129,14 @@
     <module>camel-hessian</module>
     <module>camel-hipchat</module>
     <module>camel-hl7</module>
-<<<<<<< HEAD
-    <module>camel-ibatis</module>
     <module>camel-ical</module>
     <module>camel-ignite</module>
-    <module>camel-infinispan</module>
-    <module>camel-irc</module>
     <module>camel-ironmq</module>
-=======
     <module>camel-ibatis</module>-->
       
     <!-- <module>camel-ical</module>
     <module>camel-infinispan</module>
     <module>camel-irc</module> -->
->>>>>>> 1cec177... remove even more dependencies
     <module>camel-jackson</module>
     <module>camel-jacksonxml</module>
     <!-- <module>camel-javaspace</module> -->
@@ -181,17 +169,11 @@
     <module>camel-kubernetes</module>
     <module>camel-kura</module>
     <module>camel-ldap</module>
-<<<<<<< HEAD
-    <module>camel-leveldb</module>
-    <module>camel-linkedin</module>
-    <module>camel-lucene</module>
     <module>camel-lzf</module>
-=======
     <module>camel-leveldb</module> -->
       
     <!-- <module>camel-linkedin</module> 
     <module>camel-lucene</module> -->
->>>>>>> 1cec177... remove even more dependencies
     <module>camel-mail</module>
    <!--  <module>camel-metrics</module>
     <module>camel-mina</module>
@@ -203,14 +185,9 @@
     <module>camel-msv</module>
     <module>camel-mustache</module>
     <module>camel-mvel</module>
-<<<<<<< HEAD
-    <module>camel-mybatis</module>
-    <module>camel-nagios</module>
     <module>camel-nats</module>
-=======
     <module>camel-mybatis</module> -->
     <!-- <module>camel-nagios</module> -->
->>>>>>> 1cec177... remove even more dependencies
     <module>camel-netty</module>
     <module>camel-netty4</module>
     <module>camel-netty-http</module>
